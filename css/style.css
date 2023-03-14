@@ -537,14 +537,14 @@ footer ul li a {
 }
 .club-box2 img {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 0%;
     width: 200px;
     height: 50px;
 }
 .club-box2 h1 {
     position: absolute;
-    top: 43%;
+    top: 38%;
     left: 38%;
     font-size: 20px;
     background-color: #ffffff;
@@ -666,13 +666,13 @@ footer ul li a {
 }
 /* #CLUB PAGE */
 .club-box2 img {
-    top: 40%;
+    top: 35%;
     left: 0%;
     width: 225px;
-    height: 55px;
+    height: 50px;
 }
 .club-box2 h1 {
-    top: 43%;
+    top: 37%;
     left: 38%;
     font-size: 25px;
 }
