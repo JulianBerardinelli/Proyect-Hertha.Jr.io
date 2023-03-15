@@ -57,13 +57,13 @@ h3 {
 body {
     background-color: #000000;
 }
-.conteiner {
+.conteiner-1 {
     width: 100%;
     height: 50px;
     background-image: url(../assets/img/conteiner11.jpg);
     position: relative;
 }
-.conteiner a {
+.conteiner-1 a {
     display: flex;
     justify-content: center;
 }
@@ -150,6 +150,11 @@ body {
     width: 100%;
     background-color: #000000;
     display: flex;
+
+}
+.slide-1 ul {
+    width: 100%;
+    list-style: none;
 }
 .slide-1 ul li img{
     width: 100%;
@@ -369,7 +374,7 @@ body {
     width: 15px;
     margin-left: 67px;
 }
-button {
+.button-shop {
     width: 130px;
     background-color: #000000;
     color: #ffffff;
@@ -379,7 +384,7 @@ button {
     margin: 5px;
     margin-left: 7px;
 }
-button:hover {
+.button-shop:hover {
     transform: scale(1.1);
     background: rgb(255,0,0);
     border: 2px solid #1d1d1d;
