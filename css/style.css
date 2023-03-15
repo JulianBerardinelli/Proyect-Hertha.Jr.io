@@ -548,9 +548,6 @@ footer ul li a {
     left: 38%;
     font-size: 20px;
     background-color: #ffffff;
-    /* background: linear-gradient(to right, #ff0000,#0011ff); */
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .club-box2 p {
     color: #ffffff;
@@ -584,20 +581,9 @@ h3 {
     padding: 7px 7px;
 }
 /* SLIDE #index ; #tienda (NO COMPLETO, FALTA DARLE FUNCIONALIDAD) */
-.slide-1 {
-
-}
-.slide-1 ul li img{
-
-}
 
 /* #tienda SLIDE */
-.slide-t {
 
-}
-.slide-t ul li img{
-
-}
 /* #MATCHES */
 .title-rect-right {
     position: absolute;
@@ -648,14 +634,7 @@ h3 {
     padding: 0px 20px 0px 20px;
 }
 /* FOOT #ALL  PAGES# */
-footer {
-}
-footer img {
-}
-footer ul {
-}
-footer ul li a {
-}
+
 /* #PLANTEL-INICIAL PAGE (NO TERMINADO) */
 
 /* #GALERIA PAGE (NO TERMINADO) */
