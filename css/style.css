@@ -410,7 +410,6 @@ F3F4F5
     .ver-mas {
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
     }
     /* news */
     .cards-wrapper {
@@ -456,7 +455,7 @@ F3F4F5
     .card {
         width: 170px;
         margin: 0 0.5em;
-        box-shadow: 2px 6px 8px 0 rgb(0, 0, 255);
+        box-shadow: 2px 6px 8px 0 rgba(210, 210, 210, 0.251);
     }
     .card-img-top {
         width: 170px;
@@ -646,6 +645,45 @@ F3F4F5
         margin-top: 45px;
         margin-right: 50%;
     }
+    .cal-banner {
+        height: 200px;
+        background-image: url(../assets/img/backgrounds/herthastadium.jpg);
+        background-position: fixed;
+        background-attachment: scroll;
+        background-size: contain;
+        clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0);
+    }
+    .cal-conteiner {
+        margin-left: 10px;
+    }
+    .cal-conteiner h1{
+        position: absolute;
+        font-size: 40px;
+        top: 50%;
+        background: linear-gradient(to right, #ff0000,#1100ff);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .cal-conteiner h2 {
+        position: absolute;
+        font-size: 40px;
+        top: 49%;
+        left: 4%;
+        font-family: "Hertha-3";
+    }
+    .acordion-conteiner {
+        width: 100%;
+        background-color: #000000;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+    .acor-body h2 {
+        color: #000000;
+    }
 }
 @media (min-width:375px) {
 
@@ -771,7 +809,11 @@ h3 {
     top: 60%;
     left: 45%;
 }
-
+/* calendario */
+.acordion-conteiner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 @media (min-width:900px) {
     h1 {
@@ -1014,5 +1056,33 @@ h3 {
     .club-box2 p {
         font-size: 18px;
         margin-left: 80PX;
+    }
+
+    /* calendario */
+    .acordion-conteiner {
+        margin-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .cal-banner {
+        height: 450px;
+        background-image: url(../assets/img/backgrounds/herthastadium.jpg);
+        background-position: fixed;
+        background-attachment: scroll;
+        background-size: contain;
+        clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0);
+    }
+    .cal-conteiner {
+        margin-left: 20px;
+    }
+    .cal-conteiner h1{
+        font-size: 50px;
+        top: 70%;
+    }
+    .cal-conteiner h2 {
+        font-size: 50px;
+        top: 69%;
+        left: 3%;
+        font-family: "Hertha-3";
     }
 }

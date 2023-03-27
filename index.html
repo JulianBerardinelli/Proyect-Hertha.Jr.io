@@ -29,7 +29,7 @@
             <nav class="conteiner-fluid row nav-main">
                     <div class="nav-menu-left">
                         <li class="col"><a href="./pages/galeria.html">GALERIA</a></li>
-                        <li class="col"><a href="#">CALENDARIO</a></li>
+                        <li class="col"><a href="./pages/calendario.html">CALENDARIO</a></li>
                         <li class="col"><a href="./pages/plantel-inicial.html">PLANTEL</a></li>
                         <li class="col dropdown"><a class="nav-link dropdown-toggle" href="./pages/tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">TIENDA</a>
                             <ul class="dropdown-menu">
@@ -46,8 +46,8 @@
                     <div class="nav-menu-right">
                         <a href="https://www.instagram.com/hertha.jr/"><img src="./assets/img/brands/inst-icon.png" alt=""></a>
                         <a href="https://twitter.com/"><img src="./assets/img/brands/twitter-icon.png" alt=""></a>
-                        <li><a href="./pages/galeria.html">CONTACTO</a></li>
-                        <li><a href="./pages/galeria.html">HERTHA TV</a></li>
+                        <li><a href="">CONTACTO</a></li>
+                        <li><a href="https://www.instagram.com/hertha.jr/">HERTHA TV</a></li>
                         <div>
                             <form class="d-flex" role="search">
                                 <input class="form-control buscar-bar" type="search" placeholder="Buscar" aria-label="Search">
@@ -66,7 +66,7 @@
             <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">HERTHA JUNIOR</h5>
             <h5 class="offcanvas-title offc-title-2" id="offcanvasResponsiveLabel">HERTHA JUNIOR</h5>
 
-            <div class="offcanvas-body d-flex">
+            <div class="offcanvas-body d-block">
                 <div class="buscar-offcanvas">
                     <form class="d-flex" role="search">
                         <input class="form-control buscar-bar" type="search" placeholder="Buscar" aria-label="Search">
@@ -77,7 +77,7 @@
                 <div class="nav-offcanvas">
                     <ul>
                         <li><a href="./pages/galeria.html">GALERIA</a></li>
-                        <li><a href="">CALENDARIO</a></li>
+                        <li><a href="./pages/calendario.html">CALENDARIO</a></li>
                         <li><a href="./pages/plantel-inicial.html">PLANTEL</a></li>
                         <li><a href="./pages/tienda.html">TIENDA</a></li>
                         <li><a href="./pages/club.html">CLUB</a></li>
@@ -99,7 +99,7 @@
 
     <main>
         <section class="slide-1">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./assets/img/carrusel-1.jpg" class="d-block w-100" alt="...">
@@ -111,11 +111,11 @@
                         <img src="./assets/img/carrusel-2.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -289,7 +289,12 @@
             <!-- <div class="news-title">
                 <h1>ULTIMAS NOTICIAS</h1>
             </div> -->
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="cards-wrapper">
@@ -376,11 +381,11 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -434,7 +439,7 @@
     <footer>
         <ul>
             <li><a href="./pages/galeria.html">GALERIA</a></li>
-            <li><a href="#">CALENDARIO</a></li>
+            <li><a href="./pages/calendario.html">CALENDARIO</a></li>
             <li><a href="./pages/plantel-inicial.html">PLANTEL INICIAL</a></li>
             <li><a href="./pages/tienda.html">TIENDA</a></li>
             <li><a href="./pages/club.html">CLUB</a></li>
