@@ -1066,23 +1066,21 @@ h3 {
     }
     .cal-banner {
         height: 450px;
-        background-image: url(../assets/img/backgrounds/herthastadium.jpg);
-        background-position: fixed;
-        background-attachment: scroll;
+        background-position: center;
+        background-attachment: fixed;
         background-size: contain;
-        clip-path: polygon(100% 0, 100% 95%, 0 62%, 0 0);
     }
     .cal-conteiner {
         margin-left: 20px;
     }
     .cal-conteiner h1{
-        font-size: 50px;
+        font-size: 70px;
         top: 70%;
     }
     .cal-conteiner h2 {
-        font-size: 50px;
+        font-size: 70px;
         top: 69%;
         left: 3%;
-        font-family: "Hertha-3";
+
     }
 }
